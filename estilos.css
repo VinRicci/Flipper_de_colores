@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Roboto+Mono&family=Ubuntu:wght@300;400;500;700&display=swap');
 * {
-    margin: 50px;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
 }
 
 .container {
-    height: 75vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-self: center;
     flex-direction: column;
-    padding: 700px;
+    padding: 800px;
 }
 
 .container .holder {
+    height: 40vh;
+    width: 40vh;
     background-color: #212121;
-    padding: 20px 50px;
+    padding: 50px 50px;
     border-radius: 4px;
     margin: 10px 0px;
     color: white;
@@ -28,9 +30,12 @@
     font-size: 22px;
     font-weight: bold;
     color: inherit;
+    text-align: center;
 }
 
 .container .btn {
+    height: 30vh;
+
     outline: none;
     border: 1px solid rgba(33, 33, 33, 0.3);
     padding: 10px 90px;
